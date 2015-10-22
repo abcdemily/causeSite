@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "pt sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-top: 250px;
+}
+
+header {
+  height: 300px;
+  padding-top: 50px;
+  background: #f07057;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: white;
+  text-align: center;
+}
+
+.main-nav, #main {
+  position: relative;
+}
+
+.main-nav {
+  background: #b6b6b6;
+  height: 100px;
+  margin-bottom: -100px;
+  z-index: 150;
+  padding-top: 30px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+  font-family: "pt sans"; sans-serif;
+  text-align: center;
+  /*padding-left: 27.5%;*/
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  color: white;
+  text-align: center;
+}
+
+a {
+    margin-right: 10%;
+    text-decoration: none;
+    color: rgb(93, 124, 156);
+    font-weight: bold;
+}
+a:hover {
+    border-top: solid 3px;
+    border-top-color: rgb(93, 124, 156);
+}
+
+#main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+  text-align: center;
+  clear: inherit;
+  vertical-align: text-top;
+  text-align: left;
+  width: 100%;
+  height: 580px;
+}
+
+
+#main > h1 {
+  color: #000000;
+  margin-left: 610px;
+  font-size: 6em;
+}
+
+#main img {
+  float: left;
+}
+
+#mission {
+    background-color: #090a0a;
+    color: #ffffff;
+    height: 450px;
+    clear: both;
+    padding: 150px 50px 50px;
+}
+
+#content {
+  background: rgb(93, 124, 156);
+  padding: 110px 30px 30px;
+  text-align: center;
+  color: white;
+  font-size: 20pt;
+}
+
+#explore {
+  font-family: 'Josefin Slab', serif;
+  font-weight: '400';
+  font-size: 50px;
+}
