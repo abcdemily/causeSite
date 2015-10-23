@@ -44,12 +44,14 @@ header {
   text-align: center;
 }
 
+
 a.navhov {
     margin-right: 10%;
     text-decoration: none;
     color: rgb(93, 124, 156);
     font-weight: bold;
 }
+
 a.navhov:hover {
     border-top: solid 3px;
     border-top-color: rgb(93, 124, 156);
@@ -65,12 +67,6 @@ a.navhov:hover {
   width: 100%;
 }
 
-
-#main > h1 {
-  color: #000000;
-  margin-left: 610px;
-  font-size: 6em;
-}
 
 #main img {
   width: 100%;
@@ -95,11 +91,11 @@ p {
   font-size: 14pt;
 }
 
+
 #content {
   background: rgb(93, 124, 156);
   padding: 50px 30px 30px;
   text-align: center;
-  font-family: "pt sans";
   color: white;
   font-size: 20pt;
   height: 200px;
