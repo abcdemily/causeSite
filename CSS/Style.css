@@ -119,9 +119,15 @@ footer {
 #explore {
   background: #f2f2e8;
   padding-top: 50px;
-  column-count: 2;
-  column-gap: 40px;
   text-align: center;
+  position: relative;
+}
+
+.map{
+  width: 832px;
+  height: 556px;
+  background-image: url(../img/map.png);
+  margin: 0 auto;
   position: relative;
 }
 
@@ -130,9 +136,10 @@ footer {
 }
 
 .african {
-  position: relative;
-  left: 800px;
-  bottom: 300px;
+  position: absolute;
+  left: 400px;
+  bottom: 0px;
+  top: 250px;
 }
 
 .african {
@@ -147,9 +154,9 @@ footer {
 }
 
 .asia {
-  position: relative;
-  left: 1050px;
-  bottom: 450px;
+  position: absolute;
+  left: 600px;
+  bottom: 250px;
 }
 
 .asia {
@@ -163,9 +170,9 @@ footer {
 }
 
 .aussie {
-  position: relative;
-  left: 1050px;
-  bottom: 250px;
+  position: absolute;
+  right: 30px;
+  bottom: 55px;
 }
 
 .aussie {
