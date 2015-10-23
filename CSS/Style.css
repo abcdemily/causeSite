@@ -44,13 +44,13 @@ header {
   text-align: center;
 }
 
-a {
+a.navhov {
     margin-right: 10%;
     text-decoration: none;
     color: rgb(93, 124, 156);
     font-weight: bold;
 }
-a:hover {
+a.navhov:hover {
     border-top: solid 3px;
     border-top-color: rgb(93, 124, 156);
 }
@@ -166,6 +166,22 @@ footer {
   transform: rotate(360deg);
 }
 
+.aussie {
+  position: relative;
+  left: 1050px;
+  bottom: 250px;
+}
+
+.aussie {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.aussie:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
 #contact{
   background: #f2f2e8;
   padding-top: 50px;
@@ -227,8 +243,6 @@ footer {
     padding: 5px 3px 3px 5px;
 }
 .basic-grey select {
-    background: #FFF url('down-arrow.png') no-repeat right;
-    background: #FFF url('down-arrow.png') no-repeat right);
     appearance:none;
     -webkit-appearance:none; 
     -moz-appearance: none;
